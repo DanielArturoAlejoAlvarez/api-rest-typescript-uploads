@@ -1,0 +1,33 @@
+{
+  "name": "api-rest-typescript-image-upload",
+  "version": "1.0.0",
+  "description": "Software of development with TypeScript,Nodejs,MongoDB,etc",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/index.js\""
+  },
+  "keywords": [],
+  "author": "Daniel Alejo Alvarez",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.3",
+    "@types/fs-extra": "^8.1.0",
+    "@types/mongoose": "^5.7.3",
+    "@types/morgan": "^1.9.0",
+    "@types/multer": "^1.4.2",
+    "@types/uuid": "^7.0.0",
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "uuid": "^7.0.2"
+  }
+}
